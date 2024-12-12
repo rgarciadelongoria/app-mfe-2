@@ -1,0 +1,87 @@
+@import '../../../../styles/variables.scss';
+
+::ng-deep .game-img {
+  visibility: hidden !important;
+}
+
+:host {
+  display: block;
+}
+
+ion-tabs {
+  &.is-scan {
+    padding: 0;
+  }
+
+  ion-tab-bar {
+    padding-bottom: calc(var(--admob-banner-height) + env(safe-area-inset-bottom, 0));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: solid 2px var(--ion-color-app2);
+
+    ion-tab-button {
+      color: var(--ion-color-medium);
+      font-weight: bold;
+
+      &.tab-selected {
+        color: var(--ion-color-app2);
+        ion-label {
+          font-weight: bold;
+        }
+      }
+
+      ion-label {
+        // font-weight: 600;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.empty-tab {
+  min-width: calc(25% - 12.5px)
+}
+
+.white-tab {
+  min-width: 50px;
+}
+
+.menu-button {
+  ion-fab-button {
+    margin-bottom: 70px;
+  }
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background-color: var(--ion-color-app2);
+  position: fixed;
+  color: white;
+  font-weight: bold;
+  z-index: 99999;
+  width: 200px;
+  transform: rotate(45deg);
+  right: -45px;
+  top: 20px;
+  width: 150px;
+  padding: 3px;
+}
+
+.flag {
+  width: 22px;
+  height: 22px;
+  border-radius: 22px;
+  background-size: cover;
+}
+
+.loading-ads {
+  --background: var(--color-app2-dark);
+  --spinner-color: white;
+
+  color: white;
+}

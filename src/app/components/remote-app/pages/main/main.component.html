@@ -1,0 +1,15 @@
+<section class="label">
+  APP 2
+</section>
+<ion-tabs #mainTabs>
+  <ion-tab-bar slot="bottom" color="tab">
+    <ion-tab-button [tab]="tabs.HOME">
+      <ion-icon  name="list"></ion-icon>
+      <ion-label>{{ "MAIN.TABS.HOME" | translate }}</ion-label>
+    </ion-tab-button>
+    <ion-tab-button [tab]="tabs.SCAN">
+      <ion-icon name="barcode-outline"></ion-icon>
+      <ion-label>{{ "MAIN.TABS.SCAN" | translate }}</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

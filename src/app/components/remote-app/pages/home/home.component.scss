@@ -1,0 +1,29 @@
+:host {
+  display: block;
+
+  ion-content {
+    height: 100vh;
+    width: 100vw;
+
+    --background: var(--color-background);
+  }
+
+  ion-title {
+    font-weight: bold;
+  }
+
+  ion-toolbar {
+    --border-width: 0 !important;
+  }
+  
+  ion-header {
+    box-shadow: unset;
+    border-bottom: solid 2px var(--ion-color-app2);
+  }
+
+  .options {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+  }
+}
