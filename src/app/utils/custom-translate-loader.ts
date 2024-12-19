@@ -16,7 +16,7 @@ export class CustomTranslateLoader implements TranslateLoader  {
       .pipe(
         catchError((error) => {
           console.log('Error loading translation file', error);
-          return this.httpClient.get(environment.web.host + `/assets/i18n/es.json`)
+          return this.httpClient.get(environment.web.host + `/assets/i18n/en.json`)
         })
       );
     }
