@@ -1,0 +1,26 @@
+{
+    "MAIN": {
+        "TABS": {
+            "HOME": "List",
+            "SCAN": "Scan"
+        },
+        "HEADERS": {
+            "HOME": "Scan Codes List"
+        },
+        "NO_DATA": "No data available",
+        "CHANGE_REMOTE": "Change remote config"
+    },
+    "SCAN": {
+        "ERRORS": {
+            "GENERAL": "An error occurred while scanning the ticket, check if the ticket is valid or its already scanned."
+        },
+        "MESSAGES": {
+            "CHECKING_TICKETS": "Checking prizes...",
+            "TAP_SCREEN_TO_SCAN": "Tap the screen to scan a ticket"
+        }
+    },
+    "CONFIG": {
+        "ENTER_REMOTE_CONFIG": "Enter remote configuration",
+        "RESTART_APP": "Please, close completely the app and open it again to apply the changes."
+    }
+}
